@@ -19,7 +19,6 @@ namespace TicTacToe
             bool joueur_2Win = false;
             int compteur = 0;
             string state;
-            string start = "C";
 
 
             //fonction to display the bordgame
@@ -172,12 +171,6 @@ namespace TicTacToe
                 }
             }
 
-
-
-
-
-
-
             while (!joueur_1Win && !joueur_2Win && compteur < 9)
             {
                 state = "Joueur 1";
@@ -275,14 +268,3 @@ namespace TicTacToe
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
